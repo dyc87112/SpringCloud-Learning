@@ -5,11 +5,15 @@
 作者博客：http://blog.didispace.com
 
 - Spring Cloud系统博文：http://blog.didispace.com/tag/spring-cloud/
-- Spring Boot系列博文：http://blog.didispace.com/tag/spring-boot/
 
 如您觉得该项目对您有用，欢迎点击右上方的**Star**按钮，给予支持！！
 
 如有问题，可联系：didi@potatomato.club
+
+另外，关于Spring Boot内容可以关注：
+
+- Spring Boot系列博文：http://blog.didispace.com/tag/spring-boot/
+- Spring Boot样例汇总：http://git.oschina.net/didispace/SpringBoot-Learning
 
 ##样例列表
 
@@ -24,6 +28,7 @@
 
 ### Spring Cloud构建微服务架构（进阶）
 
+- chapter2-1-1：[Spring Cloud进阶（一）高可用服务中心]()
 
 
 ## 打赏支持
