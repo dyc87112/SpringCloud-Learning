@@ -3,6 +3,7 @@
 本项目内容为Spring Cloud教程程序样例。
 
 作者博客：http://blog.didispace.com
+OsChina：http://git.oschina.net/didispace
 
 - Spring Cloud系统博文：http://blog.didispace.com/tag/spring-cloud/
 
