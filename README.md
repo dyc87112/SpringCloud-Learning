@@ -6,7 +6,8 @@
 
 OsChina：http://git.oschina.net/didispace
 
-- Spring Cloud系统博文：http://blog.didispace.com/tag/spring-cloud/
+- Spring Cloud系列博文：http://blog.didispace.com/tag/spring-cloud/
+- Spring Cloud中文社区：http://bbs.springcloud.com.cn/
 
 如您觉得该项目对您有用，欢迎点击右上方的**Star**按钮，给予支持！！
 
