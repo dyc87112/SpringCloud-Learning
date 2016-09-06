@@ -27,12 +27,7 @@ OsChina：http://git.oschina.net/didispace
 - chapter1-1-3：[Spring Cloud构建微服务架构（三）断路器](http://blog.didispace.com/springcloud3/)
 - chapter1-1-4：[Spring Cloud构建微服务架构（四）分布式配置中心](http://blog.didispace.com/springcloud4/)
 - chapter1-1-5：[Spring Cloud构建微服务架构（五）服务网关](http://blog.didispace.com/springcloud5/)
-- chapter1-1-6：[Spring Cloud构建微服务架构（六）集群监控]
-
-### Spring Cloud构建微服务架构（进阶）
-
-- chapter2-1-1：[Spring Cloud进阶（一）高可用服务中心]()
-
+- chapter1-1-6：[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
 
 ## 打赏支持
 
