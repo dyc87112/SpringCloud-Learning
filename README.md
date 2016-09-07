@@ -33,6 +33,3 @@ OsChina：http://git.oschina.net/didispace
 
 <img src="http://git.oschina.net/uploads/images/2016/0717/085831_64f0a21e_437188.png" width="200px" height="200px;" /> <img src="http://git.oschina.net/uploads/images/2016/0717/085620_78f6b3cb_437188.png" width="200px" height="200px;" />
 
-## 来“值乎”向我提问
-
-<img src="http://git.oschina.net/uploads/images/2016/0730/162630_28523bbf_437188.jpeg" width="200px" height="200px;" />
