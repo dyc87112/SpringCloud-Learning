@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient</OriginalElement>
+  <nodes>
+    <node x="26.5" y="170.0">org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient</node>
+    <node x="218.25" y="0.0">com.netflix.discovery.shared.LookupService</node>
+    <node x="227.25" y="85.0">com.netflix.discovery.EurekaClient</node>
+    <node x="248.5" y="170.0">com.netflix.discovery.DiscoveryClient</node>
+    <node x="0.0" y="85.0">org.springframework.cloud.client.discovery.DiscoveryClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.netflix.discovery.EurekaClient" target="com.netflix.discovery.shared.LookupService">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient" target="com.netflix.discovery.EurekaClient">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.netflix.discovery.DiscoveryClient" target="com.netflix.discovery.EurekaClient">
+      <point x="0.0" y="-17.5" />
+      <point x="32.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient" target="org.springframework.cloud.client.discovery.DiscoveryClient">
+      <point x="-50.5" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="201.5" y="102.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
