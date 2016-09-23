@@ -1,22 +1,16 @@
 #SpringCloud-Learning
 
-本项目内容为Spring Cloud教程程序样例。
+本项目内容为Spring Cloud教程的程序样例。
 
-作者博客：http://blog.didispace.com
-
-OsChina：http://git.oschina.net/didispace
-
+- 作者博客：http://blog.didispace.com
 - Spring Cloud系列博文：http://blog.didispace.com/tag/spring-cloud/
 - Spring Cloud中文社区：http://bbs.springcloud.com.cn/
+- GitHub：https://github.com/dyc87112/SpringCloud-Learning
+- OsChina：http://git.oschina.net/didispace
 
 如您觉得该项目对您有用，欢迎点击右上方的**Star**按钮，给予支持！！
 
-如有问题，可联系：didi@potatomato.club
-
-另外，关于Spring Boot内容可以关注：
-
-- Spring Boot系列博文：http://blog.didispace.com/tag/spring-boot/
-- Spring Boot样例汇总：http://git.oschina.net/didispace/SpringBoot-Learning
+如疑问或分享内容，欢迎来[Spring Cloud中文社区](http://bbs.springcloud.com.cn/)发帖交流。
 
 ##样例列表
 
@@ -29,10 +23,19 @@ OsChina：http://git.oschina.net/didispace
 - chapter1-1-5：[Spring Cloud构建微服务架构（五）服务网关](http://blog.didispace.com/springcloud5/)
 - chapter1-1-6：[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
 
+### 《Spring Cloud源码分析》系列博文
+
+- [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
+
+### 《Spring Cloud实战》配套示例
+
+从9月份除了写博文之后，开始编著Spring Cloud的应用书籍，内容结构会更加系统化，对一些细节内容会做更多的说明与分析。
+
+spring_cloud_in_action目录下为《Spring Cloud实战》的配套示例，暂定计划16年底-17年初完成，敬请期待！
+
+若您对《Spring Cloud实战》内容上有任何建议，也可诚意提出！
+
 ## 打赏支持
 
 <img src="http://git.oschina.net/uploads/images/2016/0717/085831_64f0a21e_437188.png" width="200px" height="200px;" /> <img src="http://git.oschina.net/uploads/images/2016/0717/085620_78f6b3cb_437188.png" width="200px" height="200px;" />
 
-## 来“值乎”向我提问
-
-<img src="http://git.oschina.net/uploads/images/2016/0730/162630_28523bbf_437188.jpeg" width="200px" height="200px;" />
