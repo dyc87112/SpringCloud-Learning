@@ -20,8 +20,10 @@
 - chapter1-1-2：[Spring Cloud构建微服务架构（二）服务消费者](http://blog.didispace.com/springcloud2/)
 - chapter1-1-3：[Spring Cloud构建微服务架构（三）断路器](http://blog.didispace.com/springcloud3/)
 - chapter1-1-4：[Spring Cloud构建微服务架构（四）分布式配置中心](http://blog.didispace.com/springcloud4/)
+- chapter1-1-8：[Spring Cloud构建微服务架构（四）分布式配置中心（续）](http://blog.didispace.com/springcloud4-2/)
 - chapter1-1-5：[Spring Cloud构建微服务架构（五）服务网关](http://blog.didispace.com/springcloud5/)
 - chapter1-1-6：[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
+- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线](http://blog.didispace.com/springcloud7/)
 
 ### 《Spring Cloud源码分析》系列博文
 
