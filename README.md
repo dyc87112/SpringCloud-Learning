@@ -3,7 +3,7 @@
 本项目内容为Spring Cloud教程的程序样例。
 
 - 作者博客：http://blog.didispace.com
-- Spring Cloud系列博文：http://blog.didispace.com/tag/spring-cloud/
+- Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
 - Spring Cloud中文社区：http://bbs.springcloud.com.cn/
 - GitHub：https://github.com/dyc87112/SpringCloud-Learning
 - OsChina：http://git.oschina.net/didispace
@@ -23,7 +23,8 @@
 - chapter1-1-8：[Spring Cloud构建微服务架构（四）分布式配置中心（续）](http://blog.didispace.com/springcloud4-2/)
 - chapter1-1-5：[Spring Cloud构建微服务架构（五）服务网关](http://blog.didispace.com/springcloud5/)
 - chapter1-1-6：[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
-- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线](http://blog.didispace.com/springcloud7/)
+- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Rabbit)](http://blog.didispace.com/springcloud7/)
+- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Kafka)](http://blog.didispace.com/springcloud7-2/)
 
 ### 《Spring Cloud源码分析》系列博文
 
