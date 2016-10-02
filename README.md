@@ -23,7 +23,8 @@
 - chapter1-1-8：[Spring Cloud构建微服务架构（四）分布式配置中心（续）](http://blog.didispace.com/springcloud4-2/)
 - chapter1-1-5：[Spring Cloud构建微服务架构（五）服务网关](http://blog.didispace.com/springcloud5/)
 - chapter1-1-6：[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
-- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线](http://blog.didispace.com/springcloud7/)
+- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Rabbit)](http://blog.didispace.com/springcloud7/)
+- chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Kafka)](http://blog.didispace.com/springcloud7-2/)
 
 ### 《Spring Cloud源码分析》系列博文
 
