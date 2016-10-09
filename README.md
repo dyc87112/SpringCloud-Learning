@@ -12,9 +12,10 @@
 
 如疑问或分享内容，欢迎来[Spring Cloud中文社区](http://bbs.springcloud.com.cn/)发帖交流。
 
+
 ##样例列表
 
-### Spring Cloud构建微服务架构
+### 《Spring Cloud构建微服务架构》系列博文示例
 
 - chapter1-1-1：[Spring Cloud构建微服务架构（一）服务注册与发现](http://blog.didispace.com/springcloud1/)
 - chapter1-1-2：[Spring Cloud构建微服务架构（二）服务消费者](http://blog.didispace.com/springcloud2/)
@@ -37,6 +38,11 @@
 spring_cloud_in_action目录下为《Spring Cloud实战》的配套示例，暂定计划16年底-17年初完成，敬请期待！
 
 若您对《Spring Cloud实战》内容上有任何建议，也可诚意提出！
+
+## 其他教程
+
+- Spring Boot系列博文：http://blog.didispace.com/categories/Spring-Boot/
+- Spring Boot样例汇总：http://git.oschina.net/didispace/SpringBoot-Learning
 
 ## 打赏支持
 

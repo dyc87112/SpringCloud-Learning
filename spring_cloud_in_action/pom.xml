@@ -26,6 +26,15 @@
 
         <module>config-server-eureka</module>
         <module>config-client-eureka</module>
+
+        <module>config-server-eureka-rabbit</module>
+        <module>config-client-eureka-rabbit</module>
+
+        <module>config-server-eureka-kafka</module>
+        <module>config-client-eureka-kafka</module>
+
+        <module>rabbitmq-hello</module>
+
     </modules>
 
 </project>
