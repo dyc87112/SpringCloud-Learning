@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.cloud.bus.event.AckRemoteApplicationEvent</OriginalElement>
+  <nodes>
+    <node x="218.0" y="255.0">org.springframework.cloud.bus.event.EnvironmentChangeRemoteApplicationEvent</node>
+    <node x="0.0" y="505.0">org.springframework.cloud.bus.event.EnvironmentChangeListener</node>
+    <node x="559.0" y="170.0">org.springframework.cloud.bus.event.RemoteApplicationEvent</node>
+    <node x="141.5" y="420.0">org.springframework.context.ApplicationListener</node>
+    <node x="308.93125" y="0.0">java.util.EventObject</node>
+    <node x="465.0" y="335.0">org.springframework.cloud.bus.event.TraceListener</node>
+    <node x="291.43125" y="85.0">org.springframework.context.ApplicationEvent</node>
+    <node x="163.5" y="335.0">java.util.EventListener</node>
+    <node x="266.0" y="505.0">org.springframework.cloud.bus.event.RefreshListener</node>
+    <node x="608.0" y="255.0">org.springframework.cloud.bus.event.AckRemoteApplicationEvent</node>
+    <node x="878.0" y="255.0">org.springframework.cloud.bus.event.RefreshRemoteApplicationEvent</node>
+    <node x="0.0" y="255.0">org.springframework.cloud.bus.event.SentApplicationEvent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.cloud.bus.event.EnvironmentChangeRemoteApplicationEvent" target="org.springframework.cloud.bus.event.RemoteApplicationEvent">
+      <point x="0.0" y="-17.5" />
+      <point x="403.0" y="235.0" />
+      <point x="625.9" y="235.0" />
+      <point x="-44.60000000000002" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationListener" target="java.util.EventListener">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.EnvironmentChangeListener" target="org.springframework.context.ApplicationListener">
+      <point x="0.0" y="-17.5" />
+      <point x="123.0" y="480.0" />
+      <point x="187.25" y="480.0" />
+      <point x="-45.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.RefreshListener" target="org.springframework.context.ApplicationListener">
+      <point x="0.0" y="-17.5" />
+      <point x="343.0" y="480.0" />
+      <point x="278.75" y="480.0" />
+      <point x="45.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.SentApplicationEvent" target="org.springframework.context.ApplicationEvent">
+      <point x="-49.5" y="-17.5" />
+      <point x="49.5" y="145.0" />
+      <point x="332.68125" y="145.0" />
+      <point x="-41.25" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.RefreshRemoteApplicationEvent" target="org.springframework.cloud.bus.event.RemoteApplicationEvent">
+      <point x="0.0" y="-17.5" />
+      <point x="1017.0" y="225.0" />
+      <point x="759.6999999999999" y="225.0" />
+      <point x="89.19999999999993" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationEvent" target="java.util.EventObject">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.SentApplicationEvent" target="org.springframework.cloud.bus.event.RemoteApplicationEvent">
+      <point x="49.5" y="-17.5" />
+      <point x="148.5" y="225.0" />
+      <point x="581.3" y="225.0" />
+      <point x="-89.20000000000005" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.RemoteApplicationEvent" target="org.springframework.context.ApplicationEvent">
+      <point x="0.0" y="-17.5" />
+      <point x="670.5" y="145.0" />
+      <point x="415.18125" y="145.0" />
+      <point x="41.25" y="17.5" />
+    </edge>
+    <edge source="org.springframework.cloud.bus.event.AckRemoteApplicationEvent" target="org.springframework.cloud.bus.event.RemoteApplicationEvent">
+      <point x="62.5" y="-17.5" />
+      <point x="795.5" y="235.0" />
+      <point x="715.0999999999999" y="235.0" />
+      <point x="44.59999999999991" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="578.0" y="270.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

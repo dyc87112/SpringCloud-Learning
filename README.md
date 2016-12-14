@@ -30,6 +30,7 @@
 ### 《Spring Cloud源码分析》系列博文
 
 - [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
+- [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
 
 ### 《Spring Cloud实战》配套示例
 

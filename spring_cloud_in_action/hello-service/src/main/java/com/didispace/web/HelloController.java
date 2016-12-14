@@ -6,6 +6,8 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Random;
+
 @RestController
 public class HelloController {
 
@@ -15,8 +17,14 @@ public class HelloController {
 	private DiscoveryClient client;
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
-	public String hello() {
+	public String hello() throws Exception {
 		ServiceInstance instance = client.getLocalServiceInstance();
+
+		// 测试超时触发断路器
+//		int sleepTime = new Random().nextInt(3000);
+//		logger.info("sleepTime:" + sleepTime);
+//		Thread.sleep(sleepTime);
+
 		logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
 		return "Hello World";
 	}

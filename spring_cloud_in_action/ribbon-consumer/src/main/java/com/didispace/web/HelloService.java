@@ -1,6 +1,7 @@
 package com.didispace.web;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -15,11 +16,15 @@ import java.util.Map;
 @Service
 public class HelloService {
 
+    private final Logger logger = Logger.getLogger(getClass());
+
     @Autowired
     RestTemplate restTemplate;
 
-    @HystrixCommand(fallbackMethod = "helloFallback")
-    public String helloService() {
+    @HystrixCommand(fallbackMethod = "helloFallback", commandKey = "helloKey")
+    public String hello() {
+        long start = System.currentTimeMillis();
+
         StringBuilder result = new StringBuilder();
 
         // GET
@@ -54,6 +59,9 @@ public class HelloService {
 //        Long id = 10001L;
 //        restTemplate.delete("http://USER-SERVICE/user/{1}",  id);
 
+        long end = System.currentTimeMillis();
+
+        logger.info("Spend time : " + (end - start) );
         return result.toString();
     }
 
