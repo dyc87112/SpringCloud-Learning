@@ -12,6 +12,9 @@
 
 如疑问或分享内容，欢迎来[Spring Cloud中文社区](http://bbs.springcloud.com.cn/)发帖交流。
 
+## 欢迎关注我的公众号
+
+![程序猿DD的公众号](http://git.oschina.net/uploads/images/2016/1221/000537_56c3b2f4_437188.jpeg "程序猿DD的公众号")
 
 ##样例列表
 
@@ -31,6 +34,10 @@
 
 - [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
 - [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
+
+### 其他文章
+
+- [为Spring Cloud Ribbon配置请求重试（Camden.SR2+）](http://blog.didispace.com/spring-cloud-ribbon-failed-retry/)
 
 ### 《Spring Cloud实战》配套示例
 
