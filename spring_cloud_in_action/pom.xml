@@ -20,6 +20,9 @@
         <module>hello-service-api</module>
 
         <module>api-gateway</module>
+        <module>api-gateway-exception</module>
+        <module>api-gateway-dynamic-route</module>
+        <module>api-gateway-dynamic-filter</module>
 
         <module>config-server</module>
         <module>config-client</module>
@@ -49,6 +52,7 @@
         <module>trace-stream-1</module>
         <module>trace-stream-2</module>
         <module>zipkin-server-stream</module>
+        <module>zipkin-server-stream-mysql</module>
 
         <module>consul-client-1</module>
         <module>api-gateway-consul</module>

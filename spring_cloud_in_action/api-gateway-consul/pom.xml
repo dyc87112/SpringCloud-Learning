@@ -35,6 +35,10 @@
 			<artifactId>spring-cloud-starter-consul-all</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
