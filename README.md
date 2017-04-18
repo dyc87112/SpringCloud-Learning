@@ -5,20 +5,21 @@
 - 作者博客：http://blog.didispace.com
 - Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
 - Spring Cloud中文社区：http://bbs.springcloud.com.cn/
+- 我的知识问答平台（可以来这里发表您的想法或提出您的问题）：http://qa.didispace.com
 - GitHub：https://github.com/dyc87112/SpringCloud-Learning
 - OsChina：http://git.oschina.net/didispace
 
 如您觉得该项目对您有用，欢迎点击右上方的**Star**按钮，给予支持！！
 
-如疑问或分享内容，欢迎来[Spring Cloud中文社区](http://bbs.springcloud.com.cn/)发帖交流。
+如疑问或分享内容，欢迎来[我的知识交流](http://qa.didispace.com/)发帖讨论。
 
 ## 我的新书
 
-![](https://git.oschina.net/uploads/images/2017/0416/233656_dd3bce94_437188.png)
+![输入图片说明](https://git.oschina.net/uploads/images/2017/0416/233753_eb31a228_437188.png "在这里输入图片标题")
 
 ## 我的公众号
 
-![程序猿DD的公众号](http://git.oschina.net/uploads/images/2016/1221/000537_56c3b2f4_437188.jpeg "程序猿DD的公众号")
+![输入图片说明](http://git.oschina.net/uploads/images/2017/0105/082219_0315cece_437188.jpeg "在这里输入图片标题")
 
 ##样例列表
 
@@ -39,9 +40,18 @@
 - [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
 - [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
 
+### 《Spring Cloud实战小贴士》系列博文
+
+- [Spring Cloud实战小贴士：版本依赖关系](http://blog.didispace.com/spring-cloud-tips-1/)
+- [Spring Cloud实战小贴士：随机端口](http://blog.didispace.com/spring-cloud-tips-2/)
+
 ### 其他文章
 
+- [使用Intellij中的Spring Initializr来快速构建Spring Boot/Cloud工程](http://blog.didispace.com/spring-initializr-in-intellij/)
 - [为Spring Cloud Ribbon配置请求重试（Camden.SR2+）](http://blog.didispace.com/spring-cloud-ribbon-failed-retry/)
+- [Consul注销实例时候的问题](http://blog.didispace.com/consul-deregister/)
+- [使用Spring Boot Actuator、Jolokia和Grafana实现准实时监控](http://blog.didispace.com/spring-boot-jolokia-grafana-monitor/)
+- [Netflix Zuul与Nginx的性能对比](http://blog.didispace.com/zuul-vs-nginx-performance/)
 
 ### 《Spring Cloud实战》配套示例
 
@@ -51,12 +61,9 @@ spring_cloud_in_action目录下为《Spring Cloud实战》的配套示例，暂�
 
 若您对《Spring Cloud实战》内容上有任何建议，也可诚意提出！
 
+本书目录：http://blog.didispace.com/mybook-spring-cloud-in-action/
+
 ## 其他教程
 
 - Spring Boot系列博文：http://blog.didispace.com/categories/Spring-Boot/
 - Spring Boot样例汇总：http://git.oschina.net/didispace/SpringBoot-Learning
-
-## 打赏支持
-
-<img src="http://git.oschina.net/uploads/images/2016/0717/085831_64f0a21e_437188.png" width="200px" height="200px;" /> <img src="http://git.oschina.net/uploads/images/2016/0717/085620_78f6b3cb_437188.png" width="200px" height="200px;" />
-
