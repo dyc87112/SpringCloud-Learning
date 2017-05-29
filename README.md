@@ -4,7 +4,7 @@
 
 - 作者博客：http://blog.didispace.com
 - Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
-- Spring Cloud中文社区：http://bbs.springcloud.com.cn/
+- Spring For All社区：http://spring4all.com/
 - 我的知识问答平台（可以来这里发表您的想法或提出您的问题）：http://qa.didispace.com
 - GitHub：https://github.com/dyc87112/SpringCloud-Learning
 - OsChina：http://git.oschina.net/didispace
@@ -12,6 +12,8 @@
 如您觉得该项目对您有用，欢迎点击右上方的**Star**按钮，给予支持！！
 
 如疑问或分享内容，欢迎来[我的知识交流](http://qa.didispace.com/)发帖讨论。
+
+**声明：本人已放弃"Spring Cloud中国社区"，该社区的任何行为均与本人无关。[Spring For All社区](http://spring4all.com/)是新组建的关于Spring的纯技术交流社区（涵盖Spring Boot、Spring Cloud等内容），集诸多开源爱好者和技术大牛贡献内容和交流问题。我们不夸大、不装逼、做最纯粹的技术分享！！！**
 
 ## 我的新书
 
