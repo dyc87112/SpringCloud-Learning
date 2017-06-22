@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 1101
+
+zuul:
+  routes:
+#  single-instance
+    api-a:
+      path: /api-a/**
+      url: http://localhost:2001/
+#  multi-instance
+    api-b:
+      path: /api-b/**
+      serviceId: api-b
+
+api-b:
+  ribbon:
+    listOfServers: http://localhost:2001/, http://localhost:2002/
