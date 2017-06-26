@@ -17,6 +17,12 @@
         <module>eureka-consumer</module>
         <module>consul-consumer</module>
 
+        <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-feign</module>
+
+        <module>config-server-git</module>
+        <module>config-client</module>
+
         <module>api-gateway</module>
         <module>api-gateway-with-eureka</module>
 

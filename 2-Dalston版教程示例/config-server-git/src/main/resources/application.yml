@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://git.oschina.net/didispace/config-repo-demo/
+#          search-paths: repo
+#          username:
+#          password:
+
+server:
+  port: 1201
