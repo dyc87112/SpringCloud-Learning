@@ -23,6 +23,9 @@
         <module>config-server-git</module>
         <module>config-client</module>
 
+        <module>eureka-consumer-ribbon-hystrix</module>
+        <module>eureka-consumer-feign-hystrix</module>
+
         <module>api-gateway</module>
         <module>api-gateway-with-eureka</module>
 
