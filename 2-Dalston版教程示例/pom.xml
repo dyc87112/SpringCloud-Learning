@@ -26,6 +26,13 @@
         <module>eureka-consumer-ribbon-hystrix</module>
         <module>eureka-consumer-feign-hystrix</module>
 
+        <module>hystrix-dashboard</module>
+        <module>turbine</module>
+        <module>turbine-amqp</module>
+
+        <module>hystrix-collapser-provider</module>
+        <module>hystrix-collapser-consumer</module>
+
         <module>api-gateway</module>
         <module>api-gateway-with-eureka</module>
 
