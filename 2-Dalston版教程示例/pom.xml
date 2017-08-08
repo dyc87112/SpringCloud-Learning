@@ -30,6 +30,10 @@
         <module>turbine</module>
         <module>turbine-amqp</module>
 
+        <module>eureka-feign-api</module>
+        <module>eureka-feign-client</module>
+        <module>eureka-feign-consumer</module>
+
         <module>hystrix-collapser-provider</module>
         <module>hystrix-collapser-consumer</module>
 

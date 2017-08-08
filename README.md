@@ -60,6 +60,9 @@
 - [Spring Cloud实战小贴士：Zuul处理Cookie和重定向](http://blog.didispace.com/spring-cloud-zuul-cookie-redirect/)
 - [Spring Cloud实战小贴士：Zuul统一异常处理（一）](http://blog.didispace.com/spring-cloud-zuul-exception/)
 - [Spring Cloud实战小贴士：Zuul统一异常处理（二）](http://blog.didispace.com/spring-cloud-zuul-exception-2/)
+- [Spring Cloud实战小贴士：Zuul统一异常处理（三）【Dalston版】](http://blog.didispace.com/spring-cloud-zuul-exception-3/)
+- [Spring Cloud实战小贴士：Turbine如何聚合设置了context-path的Hystrix数据](http://blog.didispace.com/spring-cloud-tips-4/)
+- [Spring Cloud实战小贴士：Feign的继承特性(伪RPC模式)](http://blog.didispace.com/spring-cloud-tips-feign-rpc/)
 - 未完待续
 
 ### 其他文章
