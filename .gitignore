@@ -13,3 +13,6 @@ target
 # log Files
 *.log
 
+*.project
+*.settings
+*.classpath
