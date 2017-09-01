@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @create 2017/6/24.
  * @blog http://blog.didispace.com
  */
-@FeignClient("eureka-client")
+@FeignClient(name = "eureka-client", fallback = DcClientFallback.class)
 public interface DcClient {
 
     @GetMapping("/dc")
