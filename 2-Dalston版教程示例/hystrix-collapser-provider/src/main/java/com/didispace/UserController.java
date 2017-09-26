@@ -29,20 +29,20 @@ public class UserController {
 
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET)
     public String findById(@PathVariable Long id) {
-        log.info("findById : " + id);
+        System.out.println("findById : " + id);
         return users.get(id);
     }
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public List<String> findByIds(@RequestParam String ids) {
-        log.info("findByIds : " + ids);
+        System.out.println("findByIds : " + ids);
         List<String> result = new ArrayList<>();
         for(String id : ids.split(",")) {
             if(users.get(Long.valueOf(id)) != null)
                 result.add(users.get(Long.valueOf(id)));
         }
 
-        log.info("findByIds : " + result);
+        System.out.println("findByIds : " + result);
         return result;
     }
 

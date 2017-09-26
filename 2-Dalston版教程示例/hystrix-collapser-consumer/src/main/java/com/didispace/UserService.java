@@ -33,16 +33,16 @@ public class UserService {
             }
     )
     public Future<String> findById(Long id) {
-        log.info("findById : " + id);
+        System.out.println("findById : " + id);
         return null;
     }
 
     @HystrixCommand(commandProperties = @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000"))
     public List<String> findByIds(List<Long> ids) {
-        log.info("findByIds : " + ids);
+        System.out.println("findByIds : " + ids);
         List<String> result = restTemplate.getForObject("http://hystrix-collapser-provider/users?ids={1}",
                 List.class, StringUtils.join(ids, ","));
-        log.info(result.toString());
+        System.out.println(result.toString());
         return result;
     }
 

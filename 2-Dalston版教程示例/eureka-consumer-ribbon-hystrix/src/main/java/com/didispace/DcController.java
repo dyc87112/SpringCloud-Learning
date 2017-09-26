@@ -1,13 +1,12 @@
 package com.didispace;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.ribbon.proxy.annotation.Hystrix;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 /**
  * @author 翟永超
@@ -17,29 +16,29 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class DcController {
 
-    @Autowired
-    ConsumerService consumerService;
+	@Autowired
+	ConsumerService consumerService;
 
-    @GetMapping("/consumer")
-    public String dc() {
-        return consumerService.consumer();
-    }
+	@GetMapping("/consumer")
+	public String dc() {
+		return consumerService.consumer();
+	}
 
-    @Service
-    class ConsumerService {
+	@Service
+	class ConsumerService {
 
-        @Autowired
-        RestTemplate restTemplate;
+		@Autowired
+		RestTemplate restTemplate;
 
-        @HystrixCommand(fallbackMethod = "fallback")
-        public String consumer() {
-            return restTemplate.getForObject("http://eureka-client/dc", String.class);
-        }
+		@HystrixCommand(fallbackMethod = "fallback")
+		public String consumer() {
+			return restTemplate.getForObject("http://eureka-client/dc", String.class);
+		}
 
-        public String fallback() {
-            return "fallbck";
-        }
+		public String fallback() {
+			return "fallbck";
+		}
 
-    }
+	}
 
 }

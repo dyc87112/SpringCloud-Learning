@@ -31,10 +31,10 @@ public class CollapserTest {
         Future<String> u4 = userService.findById(4L);
 
 
-        log.info(u1.get().toString());
-        log.info(u2.get().toString());
-        log.info(u3.get().toString());
-        log.info(u4.get().toString());
+        System.out.println(u1.get().toString());
+        System.out.println(u2.get().toString());
+        System.out.println(u3.get().toString());
+        System.out.println(u4.get().toString());
 
 
         Assert.assertEquals("aaa",u1.get());
