@@ -13,6 +13,12 @@ target
 # log Files
 *.log
 
-*.project
-*.settings
+*/src/test
+*target
+*.idea
 *.classpath
+*.settings
+*.project
+*.metadata
+*.gitignore
+*catalina.home_IS_UNDEFINED
