@@ -32,8 +32,7 @@
 - [Spring Cloud构建微服务架构：服务网关（基础）](http://blog.didispace.com/spring-cloud-starter-dalston-6-1/)
 - [Spring Cloud构建微服务架构：服务网关（路由配置）](http://blog.didispace.com/spring-cloud-starter-dalston-6-2/)
 - [Spring Cloud构建微服务架构：服务网关（过滤器）](http://blog.didispace.com/spring-cloud-starter-dalston-6-3/)
-- [Spring Cloud构建微服务架构：消息总线]
-- [Spring Cloud构建微服务架构：消息驱动的微服务]
+- [Spring Cloud构建微服务架构：消息驱动的微服务（入门）](http://blog.didispace.com/spring-cloud-starter-dalston-7-1/)
 - [Spring Cloud构建微服务架构：分布式服务跟踪]
 - [Spring Cloud构建微服务架构：服务综合管理]
 
