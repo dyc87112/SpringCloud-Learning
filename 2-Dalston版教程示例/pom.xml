@@ -40,6 +40,8 @@
         <module>api-gateway</module>
         <module>api-gateway-with-eureka</module>
 
+        <module>stream-hello</module>
+
     </modules>
 
 </project>
