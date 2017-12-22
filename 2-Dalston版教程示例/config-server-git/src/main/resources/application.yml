@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: http://git.oschina.net/didispace/config-repo-demo/
+          uri: http://git.oschina.net/leejean/config/
 #          search-paths: repo
 #          username:
 #          password:
