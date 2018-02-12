@@ -6,7 +6,7 @@
 - **我的小密圈（深度交流与问答）：https://t.xiaomiquan.com/zfEiY3v**
 - GitHub：https://github.com/dyc87112/SpringCloud-Learning
 - Gitee：https://gitee.com/didispace/SpringCloud-Learning
-- Spring For All社区：http://spring4all.com/
+- Spring For All社区：http://www.spring4all.com/
 - Spring Boot系列博文：http://blog.didispace.com/categories/Spring-Boot/
 - Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
 - **公益调试Eureka：http://eureka.didispace.com**
@@ -33,7 +33,15 @@
 - [Spring Cloud构建微服务架构：服务网关（路由配置）](http://blog.didispace.com/spring-cloud-starter-dalston-6-2/)
 - [Spring Cloud构建微服务架构：服务网关（过滤器）](http://blog.didispace.com/spring-cloud-starter-dalston-6-3/)
 - [Spring Cloud构建微服务架构：消息驱动的微服务（入门）](http://blog.didispace.com/spring-cloud-starter-dalston-7-1/)
-- [Spring Cloud构建微服务架构：分布式服务跟踪]
+- [Spring Cloud构建微服务架构：消息驱动的微服务（核心概念）](http://blog.didispace.com/spring-cloud-starter-dalston-7-2/)
+- [Spring Cloud构建微服务架构：消息驱动的微服务（消费组）](http://blog.didispace.com/spring-cloud-starter-dalston-7-3/)
+- [Spring Cloud构建微服务架构：消息驱动的微服务（消息分区）](http://blog.didispace.com/spring-cloud-starter-dalston-7-4/)
+- [Spring Cloud构建微服务架构：分布式服务跟踪（入门）](http://blog.didispace.com/spring-cloud-starter-dalston-8-1/)
+- [Spring Cloud构建微服务架构：分布式服务跟踪（跟踪原理）](http://blog.didispace.com/spring-cloud-starter-dalston-8-2/)
+- [Spring Cloud构建微服务架构：分布式服务跟踪（整合logstash）](http://blog.didispace.com/spring-cloud-starter-dalston-8-3/)
+- [Spring Cloud构建微服务架构：分布式服务跟踪（整合zipkin）](http://blog.didispace.com/spring-cloud-starter-dalston-8-4/)
+- [Spring Cloud构建微服务架构：分布式服务跟踪（收集原理）](http://blog.didispace.com/spring-cloud-starter-dalston-8-5/)
+- [Spring Cloud构建微服务架构：分布式服务跟踪（抽样收集）](http://blog.didispace.com/spring-cloud-starter-dalston-8-6/)
 - [Spring Cloud构建微服务架构：服务综合管理]
 
 #### 《Spring Cloud构建微服务架构》系列博文Brixton版示例
