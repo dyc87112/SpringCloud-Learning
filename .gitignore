@@ -13,3 +13,6 @@ target
 # log Files
 *.log
 
+2-Dalston版教程示例/trace-2/build/bootstrap.json
+2-Dalston版教程示例/trace-2/build/springAppName_IS_UNDEFINED.json
+2-Dalston版教程示例/trace-2/build/trace-2.json
