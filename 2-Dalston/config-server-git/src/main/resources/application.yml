@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/pdb2010/config-server
+#          search-paths: repo
+          username: pangdabo2010@hotmail.com
+          password: ZXCVbnm.123
+
+server:
+  port: 1201
