@@ -24,6 +24,7 @@
 	</properties>
 
 	<dependencies>
+		<!--引入服务网关-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zuul</artifactId>

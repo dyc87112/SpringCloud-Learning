@@ -20,12 +20,6 @@ public class DcController {
 
     @GetMapping("/consumer")
     public String dc() throws InterruptedException{
-
-        for (int i = 0; i < 20; i++) {
-            Thread.sleep(400);
-            consumerService.consumer();
-        }
-
         return consumerService.consumer();
     }
 
@@ -50,3 +44,4 @@ public class DcController {
     }
 
 }
+

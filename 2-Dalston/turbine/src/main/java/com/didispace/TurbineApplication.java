@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableAutoConfiguration
+/*使用@EnableTurbine注解开启Turbine*/
 @EnableTurbine
 @EnableDiscoveryClient
 public class TurbineApplication {

@@ -29,5 +29,4 @@ public class DcController {
         System.out.println(url);
         return restTemplate.getForObject(url, String.class);
     }
-
 }

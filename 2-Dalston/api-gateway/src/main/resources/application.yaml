@@ -7,11 +7,13 @@ server:
 
 zuul:
   routes:
-#  single-instance
+#  single-instance 单实例配置：通过一组zuul.routes.<route>.path与zuul.routes.<route>.url参数对的方式配置
     api-a:
       path: /api-a/**
       url: http://localhost:2001/
-#  multi-instance
+#  multi-instance 多实例配置：通过一组zuul.routes.<route>.path与zuul.routes.<route>.serviceId参数对的方式配置
+#   <route>可以指定为任意的路由名称
+
     api-b:
       path: /api-b/**
       serviceId: api-b
@@ -19,3 +21,15 @@ zuul:
 api-b:
   ribbon:
     listOfServers: http://localhost:2001/, http://localhost:2002/
+# 由于存在多个实例，API网关在进行路由转发时需要实现负载均衡策略，于是这里需要Spring Cloud Ribbon的配合,Spring Cloud Zuul中自带了对Ribbon的依赖。
+
+
+# 除了使用path与serviceId映射的配置方式之外，还有一种更简洁的配置方式：zuul.routes.<serviceId>=<path>，其中<serviceId>用来指定路由的具体服务名，<path>用来配置匹配的请求表达式。
+
+# 没有配置任何实例地址的情况下，外部请求经过API网关的时候，它是如何被解析并转发到服务具体实例的呢？
+#   在Spring Cloud Netflix中，Zuul巧妙的整合了Eureka来实现面向服务的路由。
+#   实际上，我们可以直接将API网关也看做是Eureka服务治理下的一个普通微服务应用。
+#   它除了会将自己注册到Eureka服务注册中心上之外，也会从注册中心获取所有服务以及它们的实例清单。
+#   所以，在Eureka的帮助下，API网关服务本身就已经维护了系统中所有serviceId与实例地址的映射关系。
+#   当有外部请求到达API网关的时候，根据请求的URL路径找到最佳匹配的path规则，API网关就可以知道要将该请求路由到哪个具体的serviceId上去。
+#   由于在API网关中已经知道serviceId对应服务实例的地址清单，那么只需要通过Ribbon的负载均衡策略，直接在这些清单中选择一个具体的实例进行转发就能完成路由工作了。

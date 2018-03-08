@@ -48,6 +48,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
+        <!--使其监控信息能够输出到RabbitMQ上，监控信息收集时是通过了消息代理异步实现的-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-hystrix-amqp</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

@@ -9,6 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>turbine</name>
+    <description>对服务的Hystrix数据进行聚合展示</description>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
@@ -24,6 +25,7 @@
 	</properties>
 
 	<dependencies>
+		<!--引入Turbine来对服务的Hystrix数据进行聚合展示-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-turbine</artifactId>
