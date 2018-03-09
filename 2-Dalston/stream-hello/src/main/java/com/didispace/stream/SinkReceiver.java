@@ -6,6 +6,7 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
 
+/*创建用于接收来自RabbitMQ消息的消费者SinkReceiver*/
 @EnableBinding(Sink.class)
 public class SinkReceiver {
 
@@ -13,7 +14,7 @@ public class SinkReceiver {
 
     @StreamListener(Sink.INPUT)
     public void receive(Object payload) {
-        logger.info("Received: " + payload);
+        logger.info("Received: " + payload.toString());
     }
 
 }
