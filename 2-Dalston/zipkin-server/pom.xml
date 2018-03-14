@@ -24,6 +24,8 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<!--在Spring Cloud Sleuth中对Zipkin的整合进行了自动化配置的封装，所以我们可以很轻松的引入和使用它-->
+    <!--搭建Zipkin Server:引入Zipkin Server的相关依赖-->
 	<dependencies>
 		<dependency>
 			<groupId>io.zipkin.java</groupId>
@@ -33,6 +35,7 @@
 			<groupId>io.zipkin.java</groupId>
 			<artifactId>zipkin-autoconfigure-ui</artifactId>
 		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>

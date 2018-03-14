@@ -24,7 +24,14 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<!--让zipkin-server服务端能够从消息中间件中获取跟踪信息，需要在pom.xml中引入针对消息中间件收集封装的服务端依赖spring-cloud-sleuth-zipkin-stream，
+		同时为了支持具体使用的消息中间件，我们还需要引入针对消息中间件的绑定器实现,比如以使用RabbitMQ为例-->
 	<dependencies>
+        <!--
+            spring-cloud-sleuth-zipkin-stream 依赖是实现从消息中间件收集跟踪信息的核心封装，
+            其中包含了用于整合消息中间件的核心依赖、zipkin服务端的核心依赖、以及一些其他通常会被使用的依赖（比如：用于扩展数据存储的依赖、用于支持测试的依赖等）。
+            但是，需要注意的是这个包里并没有引入zipkin的前端依赖zipkin-autoconfigure-ui，为了方便使用，我们在这里也引用了它。
+        -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
