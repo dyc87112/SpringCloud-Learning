@@ -41,6 +41,11 @@
         <module>api-gateway-with-eureka</module>
 
         <module>stream-hello</module>
+        
+        <module>trace-1</module>
+        <module>trace-2</module>
+        <module>zipkin-server</module>
+        <module>zipkin-server-stream</module>
 
     </modules>
 
