@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @blog http://blog.didispace.com
  */
 @RestController
-public class DcController {
+public class ConsulClientDcController {
 
     @Autowired
     DiscoveryClient discoveryClient;
@@ -22,7 +22,7 @@ public class DcController {
     //       - List<ServiceInstance> getInstances(String serviceId);  通过服务 ID，获取当前服务的服务实例
     //       - List<String> getServices(); 获取所有服务 ID 列表
 
-    @GetMapping("/dc")
+    @GetMapping("/consul/client/dc")
     public String dc() {
         String services = "Services: " + discoveryClient.getServices();
         System.out.println(services);

@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class EurekaConsumerRibbonApplication {
 
     // HTTP 访问操作类,初始化RestTemplate，用来真正发起REST请求。
     // @LoadBalanced 标志着 RestTemplate 是通过 Ribbon 客户端负载均衡去调用服务提供者集群的。
@@ -21,7 +21,7 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(Application.class).web(true).run(args);
+        new SpringApplicationBuilder(EurekaConsumerRibbonApplication.class).web(true).run(args);
     }
 
 }

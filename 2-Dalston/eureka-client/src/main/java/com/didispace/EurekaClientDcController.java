@@ -1,5 +1,7 @@
 package com.didispace;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @blog http://blog.didispace.com
  */
 @RestController
-public class DcController {
+public class EurekaClientDcController {
+    private static final Logger logger = LoggerFactory.getLogger(EurekaClientDcController.class);
 
     @Autowired
     DiscoveryClient discoveryClient;
@@ -31,10 +34,10 @@ public class DcController {
         return services;
     }*/
 
-    @GetMapping("/dc")
+    @GetMapping("/eureka/client/dc")
     public String dc() {
         String services = "Services: " + discoveryClient.getServices();
-        System.out.println(services);
+        logger.info(services);
         return services;
     }
 

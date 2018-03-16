@@ -47,19 +47,27 @@
 		</dependency>
 
 		<!-- Spring Cloud Sleuth在与ELK平台整合使用时，实际上我们只要实现与负责日志收集的Logstash完成数据对接即可，所以我们需要为Logstash准备json格式的日志输出。 
-			由于Spring Boot应用默认使用了logback来记录日志，而Logstash自身也有对logback日志工具的支持工具， 所以我们可以直接通过在logback的配置中增加对logstash的appender，就能非常方便的将日志转换成以json的格式存储和输出了。 -->
+			由于Spring Boot应用默认使用了logback来记录日志，而Logstash自身也有对logback日志工具的支持工具，
+			所以我们可以直接通过在logback的配置中增加对logstash的appender，就能非常方便的将日志转换成以json的格式存储和输出了。
+		-->
 		<dependency>
 			<groupId>net.logstash.logback</groupId>
 			<artifactId>logstash-logback-encoder</artifactId>
 			<version>4.6</version>
 		</dependency>
 
-		<!-- spring cloud sleuth 的跟踪信息,收集发送到zipkin，两种方式，选择其中一种时，需要注释不需要的引用，避免冲突。 
-			第一种方式：http方式 , 使用 @EnableZipkinServer 注解; 第二种方式：消息中间件, 使用 @EnableZipkinStreamServer 
-			注解； -->
-		<!--第一种方式 ： 实现将跟踪信息输出到Zipkin Server -->
-		<!-- <dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-sleuth-zipkin</artifactId> 
-			</dependency> -->
+		<!--
+            spring cloud sleuth 的跟踪信息,收集发送到zipkin，两种方式，选择其中一种时，需要注释不需要的引用，避免冲突。
+                第一种方式：http方式 , 使用 @EnableZipkinServer 注解;
+                第二种方式：消息中间件, 使用 @EnableZipkinStreamServer 注解；
+        -->
+		<!--第一种方式 ： 实现将跟踪信息输出到Zipkin Server-->
+		<!--
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+        </dependency>
+        -->
 
 		<!--第二种方式：让应用客户端将跟踪信息输出到消息中间件上，同时Zipkin服务端从消息中间件上异步地消费这些跟踪信息,以使用RabbitMQ为例，我们可以加入如下依赖 -->
 		<dependency>
