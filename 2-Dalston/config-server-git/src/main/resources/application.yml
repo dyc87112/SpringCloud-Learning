@@ -11,4 +11,21 @@ spring:
           password: ZXCVbnm.123
 
 server:
-  port: 1201
+  port: 1202
+
+# 如果我们的Git仓库需要权限访问，那么可以通过配置下面的两个属性来实现；
+# spring.cloud.config.server.git.username：访问Git仓库的用户名
+# spring.cloud.config.server.git.password：访问Git仓库的用户密码
+
+# 访问配置信息的URL与配置文件的映射关系如下：
+#
+#    /{application}/{profile}[/{label}]
+#    /{application}-{profile}.yml
+#    /{label}/{application}-{profile}.yml
+#    /{application}-{profile}.properties
+#    /{label}/{application}-{profile}.properties
+#
+# 上面的 url会映射 {application}-{profile}.properties 对应的配置文件，
+# {label}：Git分支，默认为master。{profile}：环境名。
+
+

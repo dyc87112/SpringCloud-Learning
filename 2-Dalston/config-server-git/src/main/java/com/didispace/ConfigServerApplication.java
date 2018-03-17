@@ -4,13 +4,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
-//添加@EnableConfigServer注解，开启Spring Cloud Config的服务端功能。
+/*添加@EnableConfigServer注解，开启Spring Cloud Config的服务端功能。*/
 @EnableConfigServer
 @SpringBootApplication
-public class Application {
+public class ConfigServerApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(Application.class).web(true).run(args);
+		new SpringApplicationBuilder(ConfigServerApplication.class).web(true).run(args);
 	}
 
 }

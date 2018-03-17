@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableAutoConfiguration
-/*在应用主类中使用@EnableTurbineStream注解来启用Turbine Stream的配置。*/
 @EnableTurbineStream
 @EnableDiscoveryClient
 public class TurbineApplication {
@@ -18,3 +17,5 @@ public class TurbineApplication {
 	}
 
 }
+
+/* 在应用主类中使用 @EnableTurbineStream 注解来启用 Turbine Stream 的配置。*/
