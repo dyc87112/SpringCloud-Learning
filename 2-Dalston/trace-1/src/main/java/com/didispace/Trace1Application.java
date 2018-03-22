@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -38,6 +39,7 @@ public class Trace1Application {
 	}
 
     @RequestMapping(value = "/info", method = RequestMethod.GET)
+	@GetMapping("/info")
     public String info() {
         logger.info("===<call trace-1>===");
         return "trace-1,"+restTemplate().getForEntity("http://trace-2/info", String.class).getBody();

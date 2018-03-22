@@ -62,22 +62,20 @@
                 第二种方式：消息中间件, 使用 @EnableZipkinStreamServer 注解；
         -->
 		<!--第一种方式 ： 实现将跟踪信息输出到Zipkin Server-->
-		<!--
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-sleuth-zipkin</artifactId>
         </dependency>
-        -->
 
 		<!--第二种方式：让应用客户端将跟踪信息输出到消息中间件上，同时Zipkin服务端从消息中间件上异步地消费这些跟踪信息,以使用RabbitMQ为例，我们可以加入如下依赖 -->
-		<dependency>
+<!--		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-sleuth-stream</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-stream-rabbit</artifactId>
-		</dependency>
+		</dependency>-->
 
 	</dependencies>
 
