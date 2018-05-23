@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: swagger-api-gateway
+
+server:
+  port: 11000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.didispace.com/eureka/

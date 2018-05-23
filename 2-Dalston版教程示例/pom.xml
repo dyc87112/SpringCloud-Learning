@@ -33,6 +33,8 @@
         <module>eureka-feign-api</module>
         <module>eureka-feign-client</module>
         <module>eureka-feign-consumer</module>
+        <module>eureka-feign-upload-client</module>
+        <module>eureka-feign-upload-server</module>
 
         <module>hystrix-collapser-provider</module>
         <module>hystrix-collapser-consumer</module>
@@ -41,6 +43,18 @@
         <module>api-gateway-with-eureka</module>
 
         <module>stream-hello</module>
+
+        <!--分布式跟踪-->
+        <module>trace-1</module>
+        <module>trace-2</module>
+
+        <module>zipkin-server</module>
+        <module>zipkin-server-stream</module>
+
+        <!--swagger api 文档汇总-->
+        <module>swagger-service-a</module>
+        <module>swagger-service-b</module>
+        <module>swagger-api-gateway</module>
 
     </modules>
 
