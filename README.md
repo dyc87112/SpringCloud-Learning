@@ -11,8 +11,6 @@
 - Spring Cloud基础教程：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
 - **公益调试Eureka：http://eureka.didispace.com**
 
-**声明：本人已放弃"Spring Cloud中国社区"，该社区的任何行为均与本人无关。[Spring For All社区](http://spring4all.com/)是新组建的关于Spring的纯技术交流社区（涵盖Spring Boot、Spring Cloud等内容），集诸多开源爱好者和技术大牛贡献内容和交流问题。我们不夸大、不装逼、做最纯粹的技术分享！！！**
-
 **优惠云服务推荐**
 
 - [腾讯云：3年时长最低265元/年](https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=f6a8af1297bfac40b9d10ffa1270029a)
@@ -22,7 +20,7 @@
 
 ## 教程列表
 
-#### 《Spring Cloud构建微服务架构》系列博文Dalston版
+#### 《Spring Cloud构建微服务架构》系列博文 - Dalston版
 
 - [Spring Cloud构建微服务架构：服务注册与发现（Eureka、Consul）](http://blog.didispace.com/spring-cloud-starter-dalston-1/)
 - [Spring Cloud构建微服务架构：服务消费者（基础）](http://blog.didispace.com/spring-cloud-starter-dalston-2-1/)
@@ -50,7 +48,7 @@
 - [Spring Cloud构建微服务架构：分布式服务跟踪（抽样收集）](http://blog.didispace.com/spring-cloud-starter-dalston-8-6/)
 - [Spring Cloud构建微服务架构：服务综合管理]
 
-#### 《Spring Cloud构建微服务架构》系列博文Brixton版示例
+#### 《Spring Cloud构建微服务架构》系列博文 - Brixton版
 
 - 1-Brixton版教程示例/chapter1-1-1：[Spring Cloud构建微服务架构（一）服务注册与发现](http://blog.didispace.com/springcloud1/)
 - 1-Brixton版教程示例/chapter1-1-2：[Spring Cloud构建微服务架构（二）服务消费者](http://blog.didispace.com/springcloud2/)
@@ -104,4 +102,7 @@
 
 ## 其他推荐
 
-- 我的《Spring Cloud基础教程》：https://github.com/dyc87112/SpringCloud-Learning
+- [Spring Boot基础教程](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
+- [Spring Boot 2.0新特性](http://blog.didispace.com/Spring-Boot-2-0-feature/)
+- [Spring Cloud基础教程](http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
+- [微服务架构专题](http://blog.didispace.com/micro-serivces-arch/)
