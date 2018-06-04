@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.didispace</groupId>
-    <artifactId>spring-cloud</artifactId>
+    <artifactId>spring-cloud-Dalston</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
 
