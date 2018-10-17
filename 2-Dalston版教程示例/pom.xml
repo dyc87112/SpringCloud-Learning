@@ -17,12 +17,15 @@
         <module>eureka-consumer</module>
         <module>consul-consumer</module>
 
+        <!--使用ribbon和feign调用服务接口-->
         <module>eureka-consumer-ribbon</module>
         <module>eureka-consumer-feign</module>
 
+        <!--分布式配置中心-->
         <module>config-server-git</module>
         <module>config-client</module>
 
+        <!--使用hystrix-->
         <module>eureka-consumer-ribbon-hystrix</module>
         <module>eureka-consumer-feign-hystrix</module>
 
@@ -30,24 +33,29 @@
         <module>turbine</module>
         <module>turbine-amqp</module>
 
+        <!--使用feign-->
         <module>eureka-feign-api</module>
         <module>eureka-feign-client</module>
         <module>eureka-feign-consumer</module>
+        <!--使用feign上传文件-->
         <module>eureka-feign-upload-client</module>
         <module>eureka-feign-upload-server</module>
 
+        <!--hystrix请求合并-->
         <module>hystrix-collapser-provider</module>
         <module>hystrix-collapser-consumer</module>
 
+        <!--api网关-->
         <module>api-gateway</module>
         <module>api-gateway-with-eureka</module>
 
+        <!--使用spring cloud stream-->
         <module>stream-hello</module>
+        <module>stream-consumer-group</module> <!-- 负载均衡消费 -->
 
         <!--分布式跟踪-->
         <module>trace-1</module>
         <module>trace-2</module>
-
         <module>zipkin-server</module>
         <module>zipkin-server-stream</module>
 
