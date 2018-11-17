@@ -52,6 +52,7 @@
         <!--使用spring cloud stream-->
         <module>stream-hello</module>
         <module>stream-consumer-group</module> <!-- 负载均衡消费 -->
+        <module>stream-consumer-self</module> <!-- 消费自己的消息 -->
 
         <!--分布式跟踪-->
         <module>trace-1</module>
