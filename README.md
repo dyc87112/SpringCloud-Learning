@@ -18,13 +18,20 @@
 
 ## 教程列表
 
-#### 《Spring Cloud构建微服务架构》系列博文 - Edgware版
+### 《Spring Cloud构建微服务架构》系列博文
+
+#### Finchley版
+
+- [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
+- [Spring Cloud Stream如何消费自己生产的消息](http://blog.didispace.com/spring-cloud-starter-finchley-7-1)
+
+#### Edgware版
 
 > 本系列主要是对Dalston版的补充，包含Edgware版的主要新增或变动的内容，对于Spring Cloud的基础使用依然建议参考Dalston版教程
 
 - [分布式配置中心(数据库存储)](http://blog.didispace.com/spring-cloud-starter-edgware-3-1)
 
-#### 《Spring Cloud构建微服务架构》系列博文 - Dalston版
+#### Dalston版
 
 - [服务注册与发现（Eureka、Consul）](http://blog.didispace.com/spring-cloud-starter-dalston-1/)
 - [服务消费者（基础）](http://blog.didispace.com/spring-cloud-starter-dalston-2-1/)
@@ -53,7 +60,7 @@
 - [分布式服务跟踪（收集原理）](http://blog.didispace.com/spring-cloud-starter-dalston-8-5/)
 - [分布式服务跟踪（抽样收集）](http://blog.didispace.com/spring-cloud-starter-dalston-8-6/)
 
-#### 《Spring Cloud构建微服务架构》系列博文 - Brixton版
+#### Brixton版
 
 - 1-Brixton版教程示例/chapter1-1-1：[Spring Cloud构建微服务架构（一）服务注册与发现](http://blog.didispace.com/springcloud1/)
 - 1-Brixton版教程示例/chapter1-1-2：[Spring Cloud构建微服务架构（二）服务消费者](http://blog.didispace.com/springcloud2/)
@@ -65,7 +72,7 @@
 - 1-Brixton版教程示例/chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Rabbit)](http://blog.didispace.com/springcloud7/)
 - 1-Brixton版教程示例/chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Kafka)](http://blog.didispace.com/springcloud7-2/)
 
-#### 《Spring Cloud源码分析》系列博文
+### 《Spring Cloud源码分析》系列博文
 
 - [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
 - [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
@@ -73,7 +80,7 @@
 - [Spring Cloud源码分析（四）Zuul：核心过滤器](http://blog.didispace.com/spring-cloud-source-zuul/)
 - 未完待续
 
-#### 《Spring Cloud实战小贴士》系列博文
+### 《Spring Cloud实战小贴士》系列博文
 
 - [Spring Cloud实战小贴士：版本依赖关系](http://blog.didispace.com/spring-cloud-tips-1/)
 - [Spring Cloud实战小贴士：随机端口](http://blog.didispace.com/spring-cloud-tips-2/)
@@ -99,11 +106,11 @@
 
 ## 我的公众号
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0105/082137_85109d07_437188.jpeg "在这里输入图片标题")
+![](http://git.oschina.net/uploads/images/2017/0105/082137_85109d07_437188.jpeg "在这里输入图片标题")
 
 ## 推荐我的书
 
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0416/233656_dd3bce94_437188.png "在这里输入图片标题")
+![](https://git.oschina.net/uploads/images/2017/0416/233656_dd3bce94_437188.png "在这里输入图片标题")
 
 ## 其他推荐
 
