@@ -18,13 +18,20 @@
 
 ## 教程列表
 
-#### 《Spring Cloud构建微服务架构》系列博文Edgware版（新特性）
+### 《Spring Cloud构建微服务架构》系列博文
 
-**本系列主要在Dalston版基础上补充Edgware版新增或是变动的主要内容，基础使用依然可以参考Dalston版教程**
+#### Finchley版
+
+- [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
+- [Spring Cloud Stream如何消费自己生产的消息](http://blog.didispace.com/spring-cloud-starter-finchley-7-1)
+
+#### Edgware版
+
+> 本系列主要是对Dalston版的补充，包含Edgware版的主要新增或变动的内容，对于Spring Cloud的基础使用依然建议参考Dalston版教程
 
 - [分布式配置中心(数据库存储)](http://blog.didispace.com/spring-cloud-starter-edgware-3-1)
 
-#### 《Spring Cloud构建微服务架构》系列博文Dalston版
+#### Dalston版
 
 - [服务注册与发现（Eureka、Consul）](http://blog.didispace.com/spring-cloud-starter-dalston-1/)
 - [服务消费者（基础）](http://blog.didispace.com/spring-cloud-starter-dalston-2-1/)
@@ -44,6 +51,7 @@
 - [消息驱动的微服务（入门）](http://blog.didispace.com/spring-cloud-starter-dalston-7-1/)
 - [消息驱动的微服务（核心概念）](http://blog.didispace.com/spring-cloud-starter-dalston-7-2/)
 - [消息驱动的微服务（消费组）](http://blog.didispace.com/spring-cloud-starter-dalston-7-3/)
+- [消息驱动的微服务（消费组案例：解决消息重复消费）](http://blog.didispace.com/spring-cloud-starter-dalston-7-5/)
 - [消息驱动的微服务（消息分区）](http://blog.didispace.com/spring-cloud-starter-dalston-7-4/)
 - [分布式服务跟踪（入门）](http://blog.didispace.com/spring-cloud-starter-dalston-8-1/)
 - [分布式服务跟踪（跟踪原理）](http://blog.didispace.com/spring-cloud-starter-dalston-8-2/)
@@ -51,15 +59,58 @@
 - [分布式服务跟踪（整合zipkin）](http://blog.didispace.com/spring-cloud-starter-dalston-8-4/)
 - [分布式服务跟踪（收集原理）](http://blog.didispace.com/spring-cloud-starter-dalston-8-5/)
 - [分布式服务跟踪（抽样收集）](http://blog.didispace.com/spring-cloud-starter-dalston-8-6/)
-- [Spring Cloud构建微服务架构：服务综合管理]
+
+#### Brixton版
+
+- 1-Brixton版教程示例/chapter1-1-1：[Spring Cloud构建微服务架构（一）服务注册与发现](http://blog.didispace.com/springcloud1/)
+- 1-Brixton版教程示例/chapter1-1-2：[Spring Cloud构建微服务架构（二）服务消费者](http://blog.didispace.com/springcloud2/)
+- 1-Brixton版教程示例/chapter1-1-3：[Spring Cloud构建微服务架构（三）断路器](http://blog.didispace.com/springcloud3/)
+- 1-Brixton版教程示例/chapter1-1-4：[Spring Cloud构建微服务架构（四）分布式配置中心](http://blog.didispace.com/springcloud4/)
+- 1-Brixton版教程示例/chapter1-1-8：[Spring Cloud构建微服务架构（四）分布式配置中心（续）](http://blog.didispace.com/springcloud4-2/)
+- 1-Brixton版教程示例/chapter1-1-5：[Spring Cloud构建微服务架构（五）服务网关](http://blog.didispace.com/springcloud5/)
+- 1-Brixton版教程示例/chapter1-1-6：[Spring Cloud构建微服务架构（六）高可用服务注册中心](http://blog.didispace.com/springcloud6/)
+- 1-Brixton版教程示例/chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Rabbit)](http://blog.didispace.com/springcloud7/)
+- 1-Brixton版教程示例/chapter1-1-7：[Spring Cloud构建微服务架构（七）消息总线(Kafka)](http://blog.didispace.com/springcloud7-2/)
+
+### 《Spring Cloud源码分析》系列博文
+
+- [Spring Cloud源码分析（一）Eureka](http://blog.didispace.com/springcloud-sourcecode-eureka/)
+- [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
+- [Spring Cloud源码分析（二）Ribbon](http://blog.didispace.com/springcloud-sourcecode-ribbon/)
+- [Spring Cloud源码分析（四）Zuul：核心过滤器](http://blog.didispace.com/spring-cloud-source-zuul/)
+- 未完待续
+
+### 《Spring Cloud实战小贴士》系列博文
+
+- [Spring Cloud实战小贴士：版本依赖关系](http://blog.didispace.com/spring-cloud-tips-1/)
+- [Spring Cloud实战小贴士：随机端口](http://blog.didispace.com/spring-cloud-tips-2/)
+- [Spring Cloud实战小贴士：健康检查](http://blog.didispace.com/spring-cloud-tips-3/)
+- [Spring Cloud实战小贴士：Zuul处理Cookie和重定向](http://blog.didispace.com/spring-cloud-zuul-cookie-redirect/)
+- [Spring Cloud实战小贴士：Zuul统一异常处理（一）](http://blog.didispace.com/spring-cloud-zuul-exception/)
+- [Spring Cloud实战小贴士：Zuul统一异常处理（二）](http://blog.didispace.com/spring-cloud-zuul-exception-2/)
+- [Spring Cloud实战小贴士：Zuul统一异常处理（三）【Dalston版】](http://blog.didispace.com/spring-cloud-zuul-exception-3/)
+- [Spring Cloud实战小贴士：Turbine如何聚合设置了context-path的Hystrix数据](http://blog.didispace.com/spring-cloud-tips-4/)
+- [Spring Cloud实战小贴士：Feign的继承特性(伪RPC模式)](http://blog.didispace.com/spring-cloud-tips-feign-rpc/)
+- [Spring Cloud实战小贴士：Ribbon的饥饿加载(eager-load)模式](http://blog.didispace.com/spring-cloud-tips-ribbon-eager/)
+- [Spring Cloud实战小贴士：Zuul的饥饿加载(eager-load)使用](http://blog.didispace.com/spring-cloud-tips-zuul-eager/)
+
+#### 其他文章
+
+- [使用Intellij中的Spring Initializr来快速构建Spring Boot/Cloud工程](http://blog.didispace.com/spring-initializr-in-intellij/)
+- [为Spring Cloud Ribbon配置请求重试（Camden.SR2+）](http://blog.didispace.com/spring-cloud-ribbon-failed-retry/)
+- [Consul注销实例时候的问题](http://blog.didispace.com/consul-deregister/)
+- [使用Spring Boot Actuator、Jolokia和Grafana实现准实时监控](http://blog.didispace.com/spring-boot-jolokia-grafana-monitor/)
+- [Netflix Zuul与Nginx的性能对比](http://blog.didispace.com/zuul-vs-nginx-performance/)
+- [基于Consul的分布式锁实现](http://blog.didispace.com/spring-cloud-consul-lock-and-semphore/)
+- [基于Consul的分布式信号量实现](http://blog.didispace.com/spring-cloud-consul-lock-and-semphore-2/)
 
 ## 我的公众号
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0105/082137_85109d07_437188.jpeg "在这里输入图片标题")
+![](http://git.oschina.net/uploads/images/2017/0105/082137_85109d07_437188.jpeg "在这里输入图片标题")
 
 ## 推荐我的书
 
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0416/233656_dd3bce94_437188.png "在这里输入图片标题")
+![](https://git.oschina.net/uploads/images/2017/0416/233656_dd3bce94_437188.png "在这里输入图片标题")
 
 ## 其他推荐
 
