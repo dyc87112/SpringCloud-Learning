@@ -9,7 +9,17 @@
     <version>1.0</version>
 
     <modules>
-        <module>stream-consumer-self</module> <!-- 消费自己的消息 -->
+        <!-- 消费自己的消息 -->
+        <module>stream-consumer-self</module>
+        <!-- 消息重试 -->
+        <module>stream-exception-handler-1</module>
+
+        <!-- 重新入队 -->
+
+        <!-- 自定义降级方法 -->
+
+        <!-- 使用DLQ队列（RabbitMQ） -->
+
 
     </modules>
 
