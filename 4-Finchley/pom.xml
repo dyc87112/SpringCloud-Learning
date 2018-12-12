@@ -13,10 +13,10 @@
         <module>stream-consumer-self</module>
         <!-- 消息重试 -->
         <module>stream-exception-handler-1</module>
+        <!-- 自定义错误处理逻辑 -->
+        <module>stream-exception-handler-2</module>
 
-        <!-- 重新入队 -->
-
-        <!-- 自定义降级方法 -->
+        <!-- 重新入队（RabbitMQ） -->
 
         <!-- 使用DLQ队列（RabbitMQ） -->
 
