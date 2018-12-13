@@ -15,11 +15,8 @@
         <module>stream-exception-handler-1</module>
         <!-- 自定义错误处理逻辑 -->
         <module>stream-exception-handler-2</module>
-
-        <!-- 重新入队（RabbitMQ） -->
-
         <!-- 使用DLQ队列（RabbitMQ） -->
-
+        <module>stream-exception-handler-3</module>
 
     </modules>
 
