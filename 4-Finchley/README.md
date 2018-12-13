@@ -24,6 +24,8 @@
 
 - [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
 - [Spring Cloud Stream如何消费自己生产的消息](http://blog.didispace.com/spring-cloud-starter-finchley-7-1)
+- [Spring Cloud Stream消费失败后的处理策略（一）：自动重试](http://blog.didispace.com/spring-cloud-starter-finchley-7-2)
+- [Spring Cloud Stream消费失败后的处理策略（二）：自定义错误处理逻辑](http://blog.didispace.com/spring-cloud-starter-finchley-7-3)
 
 #### Edgware版
 
