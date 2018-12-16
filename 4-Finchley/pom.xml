@@ -17,6 +17,11 @@
         <module>stream-exception-handler-2</module>
         <!-- 使用DLQ队列（RabbitMQ） -->
         <module>stream-exception-handler-3</module>
+        <!-- 重入队列（RabbitMQ） -->
+        <module>stream-exception-handler-4</module>
+
+        <!-- @StreamListener根据内容路由 -->
+        <module>stream-content-route</module>
 
     </modules>
 
