@@ -27,6 +27,7 @@
 - [Spring Cloud Stream消费失败后的处理策略（一）：自动重试](http://blog.didispace.com/spring-cloud-starter-finchley-7-2)
 - [Spring Cloud Stream消费失败后的处理策略（二）：自定义错误处理逻辑](http://blog.didispace.com/spring-cloud-starter-finchley-7-3)
 - [Spring Cloud Stream消费失败后的处理策略（三）：使用DLQ队列（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-4)
+- [Spring Cloud Stream消费失败后的处理策略（四）：重入队列（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-5)
 
 #### Edgware版
 
