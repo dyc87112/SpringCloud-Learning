@@ -23,6 +23,9 @@
         <!-- @StreamListener根据内容路由 -->
         <module>stream-content-route</module>
 
+        <!-- 使用延迟消息实现定时任务（RabbitMQ）-->
+        <module>stream-delayed-message</module>
+
     </modules>
 
 </project>
