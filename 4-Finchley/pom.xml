@@ -9,23 +9,18 @@
     <version>1.0</version>
 
     <modules>
-        <!-- 消费自己的消息 -->
-        <module>stream-consumer-self</module>
-        <!-- 消息重试 -->
-        <module>stream-exception-handler-1</module>
-        <!-- 自定义错误处理逻辑 -->
-        <module>stream-exception-handler-2</module>
-        <!-- 使用DLQ队列（RabbitMQ） -->
-        <module>stream-exception-handler-3</module>
-        <!-- 重入队列（RabbitMQ） -->
-        <module>stream-exception-handler-4</module>
+        <!-- spring cloud alibaba专题-->
+        <module>alibaba-nacos-discovery-server</module>         <!-- 使用Nacos实现服务注册与发现：服务提供方-->
+        <module>alibaba-nacos-discovery-client-common</module>  <!-- 使用Nacos实现服务注册与发现：服务消费方（spring cloud common接口实现负载均衡）-->
 
-        <!-- @StreamListener根据内容路由 -->
-        <module>stream-content-route</module>
-
-        <!-- 使用延迟消息实现定时任务（RabbitMQ）-->
-        <module>stream-delayed-message</module>
-
+        <!--spring cloud stream专题-->
+        <module>stream-consumer-self</module>       <!-- 消费自己的消息 -->
+        <module>stream-exception-handler-1</module> <!-- 消息重试 -->
+        <module>stream-exception-handler-2</module> <!-- 自定义错误处理逻辑 -->
+        <module>stream-exception-handler-3</module> <!-- 使用DLQ队列（RabbitMQ） -->
+        <module>stream-exception-handler-4</module> <!-- 重入队列（RabbitMQ） -->
+        <module>stream-content-route</module>       <!-- @StreamListener根据内容路由 -->
+        <module>stream-delayed-message</module>     <!-- 使用延迟消息实现定时任务（RabbitMQ）-->
     </modules>
 
 </project>
