@@ -25,6 +25,7 @@ public class TestApplication {
 
         @GetMapping("/hello")
         public String hello(@RequestParam String name) {
+            log.info("invoked name = " + name);
             return "hello " + name;
         }
 
