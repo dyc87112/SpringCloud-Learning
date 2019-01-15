@@ -10,8 +10,9 @@
 
     <modules>
         <!-- spring cloud alibaba专题-->
-        <module>alibaba-nacos-discovery-server</module>         <!-- 使用Nacos实现服务注册与发现：服务提供方-->
-        <module>alibaba-nacos-discovery-client-common</module>  <!-- 使用Nacos实现服务注册与发现：服务消费方（spring cloud common接口实现负载均衡）-->
+        <module>alibaba-nacos-discovery-server</module>                 <!-- 使用Nacos实现服务注册与发现：服务提供方-->
+        <module>alibaba-nacos-discovery-client-common</module>          <!-- 使用Nacos实现服务注册与发现：服务消费方（spring cloud common接口实现负载均衡）-->
+        <module>alibaba-nacos-discovery-client-resttemplate</module>    <!-- 使用Nacos实现服务注册与发现：服务消费方（RestTemplate实现）-->
 
         <!--spring cloud stream专题-->
         <module>stream-consumer-self</module>       <!-- 消费自己的消息 -->
