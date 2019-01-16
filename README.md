@@ -26,6 +26,10 @@
 
 - [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
 
+**Spring Cloud Aliabab专题**
+
+- [Spring Cloud Alibaba基础教程：使用Nacos实现服务注册与发现](http://blog.didispace.com/spring-cloud-alibaba-1)
+
 **Spring Cloud Stream专题补充**
 
 - [Spring Cloud Stream如何消费自己生产的消息](http://blog.didispace.com/spring-cloud-starter-finchley-7-1)
