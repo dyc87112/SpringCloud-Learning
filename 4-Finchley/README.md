@@ -29,6 +29,7 @@
 **Spring Cloud Aliabab专题**
 
 - [Spring Cloud Alibaba基础教程：使用Nacos实现服务注册与发现](http://blog.didispace.com/spring-cloud-alibaba-1)
+- [Spring Cloud Alibaba基础教程：支持的几种服务消费方式（RestTemplate、WebClient、Feign）](http://blog.didispace.com/spring-cloud-alibaba-2)
 
 **Spring Cloud Stream专题补充**
 
