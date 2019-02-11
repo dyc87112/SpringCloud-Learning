@@ -22,24 +22,29 @@
 
 #### Finchley版
 
-**本系列主要补充之前版本新增或是变动的主要内容，基础使用依然可以参考Dalston版教程**
+本系列主要补充之前版本新增或是变动的主要内容，基础使用依然可以参考Dalston版教程
 
 - [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
 
 **Spring Cloud Aliabab专题**
 
-- [Spring Cloud Alibaba基础教程：使用Nacos实现服务注册与发现](http://blog.didispace.com/spring-cloud-alibaba-1)
-- [Spring Cloud Alibaba基础教程：支持的几种服务消费方式（RestTemplate、WebClient、Feign）](http://blog.didispace.com/spring-cloud-alibaba-2)
-- [Spring Cloud Alibaba基础教程：使用Nacos作为配置中心](http://blog.didispace.com/spring-cloud-alibaba-3)
+- [Spring Cloud Alibaba基础教程：使用Nacos实现服务注册与发现](http://blog.didispace.com/spring-cloud-alibaba-1/)
+- [Spring Cloud Alibaba基础教程：Nacos 生产级版本 0.8.0](http://blog.didispace.com/spring-cloud-alibaba-nacos-1/)
+- [Spring Cloud Alibaba基础教程：支持的几种服务消费方式（RestTemplate、WebClient、Feign）](http://blog.didispace.com/spring-cloud-alibaba-2/)
+- [Spring Cloud Alibaba基础教程：使用Nacos作为配置中心](http://blog.didispace.com/spring-cloud-alibaba-3/)
+- [Spring Cloud Alibaba基础教程：Nacos配置的加载规则详解](http://blog.didispace.com/spring-cloud-alibaba-nacos-config-1/)
+- [Spring Cloud Alibaba基础教程：Nacos配置的多环境管理](http://blog.didispace.com/spring-cloud-alibaba-nacos-config-2/)
+- [Spring Cloud Alibaba基础教程：Nacos配置的多文件加载与共享配置](http://blog.didispace.com/spring-cloud-alibaba-nacos-config-3/)
 
 **Spring Cloud Stream专题补充**
 
 - [Spring Cloud Stream如何消费自己生产的消息](http://blog.didispace.com/spring-cloud-starter-finchley-7-1)
+- [Spring Cloud Stream同一通道根据消息内容分发不同的消费逻辑](http://blog.didispace.com/spring-cloud-starter-finchley-7-6)
+- [Spring Cloud Stream使用延迟消息实现定时任务（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-7)
 - [Spring Cloud Stream消费失败后的处理策略（一）：自动重试](http://blog.didispace.com/spring-cloud-starter-finchley-7-2)
 - [Spring Cloud Stream消费失败后的处理策略（二）：自定义错误处理逻辑](http://blog.didispace.com/spring-cloud-starter-finchley-7-3)
 - [Spring Cloud Stream消费失败后的处理策略（三）：使用DLQ队列（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-4)
-- [Spring Cloud Stream消费失败后的处理策略（四）：重入队列（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-5)
-- [Spring Cloud Stream使用延迟消息实现定时任务（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-6)
+- [Spring Cloud Stream消费失败后的处理策略（四）：重新入队（RabbitMQ）](http://blog.didispace.com/spring-cloud-starter-finchley-7-5)
 
 #### Edgware版
 
