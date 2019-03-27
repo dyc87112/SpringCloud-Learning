@@ -26,7 +26,7 @@
 
 - [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
 
-**Spring Cloud Aliabab专题**
+**Spring Cloud Alibaba专题**
 
 - [Spring Cloud Alibaba与Spring Boot、Spring Cloud之间不得不说的版本关系](http://blog.didispace.com/spring-cloud-alibaba-version/)
 
