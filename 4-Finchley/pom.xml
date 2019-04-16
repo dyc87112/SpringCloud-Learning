@@ -19,6 +19,7 @@
         <module>alibaba-nacos-discovery-client-feign</module>           <!-- 使用Nacos实现服务注册与发现：服务消费方（Feign实现）-->
 
         <module>alibaba-sentinel-rate-limiting</module>                 <!-- 使用Sentinel实现接口限流 -->
+        <module>alibaba-sentinel-datasource-nacos</module>              <!-- 使用Nacos存储规则 -->
         <module>alibaba-sentinel-datasource-apollo</module>             <!-- 使用Apollo存储规则 -->
 
         <!--spring cloud stream专题-->
