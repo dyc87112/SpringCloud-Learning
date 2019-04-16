@@ -26,9 +26,11 @@
 
 - [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
 
-**Spring Cloud Alibaba专题**
+##### Spring Cloud Aliabab专题
 
 - [Spring Cloud Alibaba与Spring Boot、Spring Cloud之间不得不说的版本关系](http://blog.didispace.com/spring-cloud-alibaba-version/)
+- [说说我为什么看好Spring Cloud Alibaba](http://blog.didispace.com/spring-cloud-alibaba-significance/)
+- [Spring Cloud Alibaba到底坑不坑？](http://blog.didispace.com/bo-kengdie-spring-cloud-alibaba/)
 
 *注册中心与配置中心：Nacos*
 
@@ -42,7 +44,12 @@
 - [Spring Cloud Alibaba基础教程：Nacos的数据持久化](http://blog.didispace.com/spring-cloud-alibaba-4/)
 - [Spring Cloud Alibaba基础教程：Nacos的集群部署](http://blog.didispace.com/spring-cloud-alibaba-5/)
 
-**Spring Cloud Stream专题补充**
+*分布式流量防卫兵：Sentinel*
+
+- [Spring Cloud Alibaba基础教程：使用Sentinel实现接口限流](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
+- [Spring Cloud Alibaba基础教程：Sentinel使用Nacos存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-1/)
+
+##### Spring Cloud Stream专题补充
 
 - [Spring Cloud Stream如何消费自己生产的消息](http://blog.didispace.com/spring-cloud-starter-finchley-7-1)
 - [Spring Cloud Stream同一通道根据消息内容分发不同的消费逻辑](http://blog.didispace.com/spring-cloud-starter-finchley-7-6)
