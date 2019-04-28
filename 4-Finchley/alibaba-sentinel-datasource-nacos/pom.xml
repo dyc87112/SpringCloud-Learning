@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
-            <version>1.4.0</version>
+            <version>1.5.2</version>
         </dependency>
 
         <dependency>
@@ -61,7 +61,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>0.2.1.RELEASE</version>
+                <version>0.2.2.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
