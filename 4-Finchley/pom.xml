@@ -21,6 +21,7 @@
         <module>alibaba-sentinel-rate-limiting</module>                 <!-- 使用Sentinel实现接口限流 -->
         <module>alibaba-sentinel-datasource-nacos</module>              <!-- 使用Nacos存储规则 -->
         <module>alibaba-sentinel-datasource-apollo</module>             <!-- 使用Apollo存储规则 -->
+        <module>alibaba-sentinel-dashboard-apollo</module>              <!-- 使用Apollo存储规则的Dashboard -->
 
         <!--spring cloud stream专题-->
         <module>stream-consumer-self</module>       <!-- 消费自己的消息 -->
