@@ -9,7 +9,7 @@
         <version>1.6.0</version>
     </parent>
 
-    <artifactId>sentinel-dashboard</artifactId>
+    <artifactId>alibaba-sentinel-dashboard-apollo</artifactId>
     <packaging>jar</packaging>
 
     <properties>
