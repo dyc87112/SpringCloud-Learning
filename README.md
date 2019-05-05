@@ -49,6 +49,7 @@
 - [Spring Cloud Alibaba基础教程：使用Sentinel实现接口限流](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
 - [Spring Cloud Alibaba基础教程：Sentinel使用Nacos存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-1/)
 - [Spring Cloud Alibaba基础教程：Sentinel使用Apollo存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-2/)
+- [Spring Cloud Alibaba基础教程：Sentinel Dashboard同步Apollo存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-3/)
 
 ##### Spring Cloud Stream专题补充
 
