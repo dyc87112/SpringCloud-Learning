@@ -52,6 +52,18 @@ public class FlowRuleApolloPublisher implements DynamicRulePublisher<List<FlowRu
             return;
         }
 
+        // TODO 处理不兼容的字段，spring cloud alibaba 0.2.2版本中实现JSON转换的时候，不会忽略不存在的字段，会导致客户端出现出现异常
+        // 可以通过下面这段代码将这些字段不存入Apollo，以避免客户端加载的错误
+        for (FlowRuleEntity ruleEntity : rules) {
+            ruleEntity.setId(null);
+            ruleEntity.setApp(null);
+            ruleEntity.setGmtModified(null);
+            ruleEntity.setGmtCreate(null);
+            ruleEntity.setIp(null);
+            ruleEntity.setPort(null);
+        }
+        // 请视情况使用
+
         OpenItemDTO openItemDTO = new OpenItemDTO();
         openItemDTO.setKey(flowDataId);
         openItemDTO.setValue(converter.convert(rules));
