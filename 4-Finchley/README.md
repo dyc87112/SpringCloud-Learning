@@ -51,7 +51,7 @@
 - [Spring Cloud Alibaba基础教程：Sentinel使用Apollo存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-2/)
 - [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Apollo](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-3/)
 - [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Nacos](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-4/)
-
+- [Spring Cloud Alibaba基础教程：@SentinelResource注解使用详解](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-5/)
 
 ##### Spring Cloud Stream专题补充
 
