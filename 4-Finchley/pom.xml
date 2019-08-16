@@ -25,6 +25,10 @@
         <module>alibaba-sentinel-dashboard-nacos</module>               <!-- 使用Nacos存储规则的Dashboard -->
         <module>alibaba-sentinel-annotation</module>                    <!-- @SentinelResource注解的使用 -->
 
+        <module>alibaba-dubbo-api</module>      <!-- Dubbo API定义 -->
+        <module>alibaba-dubbo-server</module>   <!-- Dubbo 服务端实现 -->
+        <module>alibaba-dubbo-client</module>   <!-- Dubbo 客户端实现 -->
+
         <!--spring cloud stream专题-->
         <module>stream-consumer-self</module>       <!-- 消费自己的消息 -->
         <module>stream-exception-handler-1</module> <!-- 消息重试 -->
