@@ -53,6 +53,9 @@
 - [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Nacos](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-4/)
 - [Spring Cloud Alibaba基础教程：@SentinelResource注解使用详解](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-5/)
 
+*国内使用最多的RPC框架整合：Dubbo*
+
+- [Spring Cloud Alibaba基础教程：与Dubbo的完美融合](http://blog.didispace.com/spring-cloud-alibaba-dubbo-1/)
 
 ##### Spring Cloud Stream专题补充
 
