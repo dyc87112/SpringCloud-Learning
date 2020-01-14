@@ -13,8 +13,8 @@
 
 **优惠云服务推荐**
 
+- [阿里云：ECS云服务器2折起](https://www.aliyun.com/minisite/goods?userCode=wxfqkr0o&share_source=copy_link)
 - [腾讯云：3年时长最低265元/年](https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=f6a8af1297bfac40b9d10ffa1270029a)
-- [阿里云：ECS云服务器2折起](https://s.click.taobao.com/t?e=m%3D2%26s%3Dzj4kbQ5lKukcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAq9GNeKfy2AD4SaRmc4YmqYCxNLxWxqxDPY8Eqzf%2BUWbOTauL6DcROffvu81lbXO1DDVuRn8ddiDsEVVC24eqozO54LQ%2FVw1L9X5LHh3Z8M%2BWS6ALZVeqlk9XUfbPSJC%2F06deTzTIbffYpyF7ku%2BxKgGargQjSAC4C6cUF%2FXAmem)
 
 本项目教程因做了版本更新，所以对目录结构做了调整，根目录下的各个章节为了博文链接兼容暂时保留。
 

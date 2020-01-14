@@ -13,8 +13,8 @@
 
 **优惠云服务推荐**
 
+- [阿里云：ECS云服务器2折起](https://www.aliyun.com/minisite/goods?userCode=wxfqkr0o&share_source=copy_link)
 - [腾讯云：3年时长最低265元/年](https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=f6a8af1297bfac40b9d10ffa1270029a)
-- [阿里云：ECS云服务器2折起](https://s.click.taobao.com/t?e=m%3D2%26s%3Dzj4kbQ5lKukcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAq9GNeKfy2AD4SaRmc4YmqYCxNLxWxqxDPY8Eqzf%2BUWbOTauL6DcROffvu81lbXO1DDVuRn8ddiDsEVVC24eqozO54LQ%2FVw1L9X5LHh3Z8M%2BWS6ALZVeqlk9XUfbPSJC%2F06deTzTIbffYpyF7ku%2BxKgGargQjSAC4C6cUF%2FXAmem)
 
 ## 教程列表
 
@@ -26,7 +26,13 @@
 
 - [Spring Cloud Finchley版中Consul多实例注册的问题处理](http://blog.didispace.com/Spring-Cloud-Finchley-Consul-InstanceId/)
 
-**Spring Cloud Aliabab专题**
+##### Spring Cloud Aliabab专题
+
+- [Spring Cloud Alibaba与Spring Boot、Spring Cloud之间不得不说的版本关系](http://blog.didispace.com/spring-cloud-alibaba-version/)
+- [说说我为什么看好Spring Cloud Alibaba](http://blog.didispace.com/spring-cloud-alibaba-significance/)
+- [Spring Cloud Alibaba到底坑不坑？](http://blog.didispace.com/bo-kengdie-spring-cloud-alibaba/)
+
+*注册中心与配置中心：Nacos*
 
 - [Spring Cloud Alibaba基础教程：使用Nacos实现服务注册与发现](http://blog.didispace.com/spring-cloud-alibaba-1/)
 - [Spring Cloud Alibaba基础教程：Nacos 生产级版本 0.8.0](http://blog.didispace.com/spring-cloud-alibaba-nacos-1/)
@@ -35,6 +41,17 @@
 - [Spring Cloud Alibaba基础教程：Nacos配置的加载规则详解](http://blog.didispace.com/spring-cloud-alibaba-nacos-config-1/)
 - [Spring Cloud Alibaba基础教程：Nacos配置的多环境管理](http://blog.didispace.com/spring-cloud-alibaba-nacos-config-2/)
 - [Spring Cloud Alibaba基础教程：Nacos配置的多文件加载与共享配置](http://blog.didispace.com/spring-cloud-alibaba-nacos-config-3/)
+- [Spring Cloud Alibaba基础教程：Nacos的数据持久化](http://blog.didispace.com/spring-cloud-alibaba-4/)
+- [Spring Cloud Alibaba基础教程：Nacos的集群部署](http://blog.didispace.com/spring-cloud-alibaba-5/)
+
+*分布式流量防卫兵：Sentinel*
+
+- [Spring Cloud Alibaba基础教程：使用Sentinel实现接口限流](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
+- [Spring Cloud Alibaba基础教程：Sentinel使用Nacos存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-1/)
+- [Spring Cloud Alibaba基础教程：Sentinel使用Apollo存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-2/)
+- [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Apollo](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-3/)
+- [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Nacos](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-4/)
+- [Spring Cloud Alibaba基础教程：@SentinelResource注解使用详解](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-5/)
 
 **Spring Cloud Stream专题补充**
 

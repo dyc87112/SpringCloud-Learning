@@ -1,20 +1,49 @@
+**💗【鼓励一下】** 我正在参与[CSDN博客之星](http://m234140.nofollow.ax.mvote.cn/opage/3d0780af-ab38-8794-6259-5876f7e31e56.html)的竞选，如果我的内容有帮助到你，欢迎点击[投票支持](http://m234140.nofollow.ax.mvote.cn/opage/3d0780af-ab38-8794-6259-5876f7e31e56.html)（每天可以投5次哦）
+
 # Spring Cloud教程
 
 本项目内容为Spring Cloud教程的程序样例。如您觉得该项目对您有用，欢迎点击右上方的**Star**按钮，给予支持！！
 
-- 我的博客：http://blog.didispace.com
-- **我的小密圈（深度交流与问答）：https://t.xiaomiquan.com/zfEiY3v**
-- GitHub：https://github.com/dyc87112/SpringCloud-Learning
-- Gitee：https://gitee.com/didispace/SpringCloud-Learning
-- Spring For All社区：http://www.spring4all.com/
-- Spring Boot基础教程：http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
-- Spring Cloud基础教程：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/
-- **公益调试Eureka：http://eureka.didispace.com**
+- 公益调试 Eureka：http://eureka.didispace.com
+- 公益调试 Nacos：http://blog.didispace.com/open-nacos-server-1-0-0/
 
-**优惠云服务推荐**
+## 特别赞助商
 
-- [腾讯云：3年时长最低265元/年](https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=f6a8af1297bfac40b9d10ffa1270029a)
-- [阿里云：ECS云服务器2折起](https://s.click.taobao.com/t?e=m%3D2%26s%3Dzj4kbQ5lKukcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAq9GNeKfy2AD4SaRmc4YmqYCxNLxWxqxDPY8Eqzf%2BUWbOTauL6DcROffvu81lbXO1DDVuRn8ddiDsEVVC24eqozO54LQ%2FVw1L9X5LHh3Z8M%2BWS6ALZVeqlk9XUfbPSJC%2F06deTzTIbffYpyF7ku%2BxKgGargQjSAC4C6cUF%2FXAmem)
+<table>
+      <tbody>
+        <tr>
+          <td align="center" valign="middle">
+            <a href="https://coding.net/?utm_source=zhaiyongchao&utm_medium=banner&utm_campaign=march2019" target="_blank">
+              <img width="300" src="https://github.com/dyc87112/SpringBoot-Learning/blob/master/sponsor/git-springboot-sponsor-1-500X166.jpg?raw=true">
+            </a>
+          </td>
+          <td align="center" valign="middle">
+            <a href="https://www.aliyun.com/minisite/goods?userCode=wxfqkr0o&share_source=copy_link" target="_blank">
+              <img width="300" src="https://github.com/dyc87112/SpringCloud-Learning/blob/master/sponsor/aliyun_1212_300x90.jpg?raw=true">
+            </a>
+          </td> 
+          <td align="center" valign="middle">
+            <a href="http://gk.link/a/103EK" target="_blank">
+              <img width="300" src="https://github.com/dyc87112/SpringBoot-Learning/blob/master/sponsor/git-springboot-sponsor-4.jpg?raw=true">
+            </a>
+          </td> 
+        </tr>
+        <tr>
+          <td align="center" valign="middle">
+            <a href="https://cloud.tencent.com/redirect.php?redirect=1027&cps_key=f6a8af1297bfac40b9d10ffa1270029a&from=console" target="_blank">
+              <img width="300" src="https://github.com/dyc87112/SpringBoot-Learning/blob/master/sponsor/git-springboot-sponsor-5.jpg?raw=true">
+            </a>
+          </td> 
+          <td align="center" valign="middle">
+             <a href="https://openwrite.cn/?from=didi-springboot" target="_blank">
+               <img width="300" src="https://github.com/dyc87112/SpringCloud-Learning/blob/master/sponsor/openwrite.png?raw=true">
+             </a>
+          </td> 
+        </tr>
+      </tbody>
+</table>
+
+> 如果您也想赞助支持并出现在上表中的话，可以通过邮件联系我：`didi@didispace.com`
 
 ## 教程列表
 
@@ -49,7 +78,13 @@
 - [Spring Cloud Alibaba基础教程：使用Sentinel实现接口限流](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
 - [Spring Cloud Alibaba基础教程：Sentinel使用Nacos存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-1/)
 - [Spring Cloud Alibaba基础教程：Sentinel使用Apollo存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-2/)
-- [Spring Cloud Alibaba基础教程：Sentinel Dashboard同步Apollo存储规则](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-3/)
+- [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Apollo](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-3/)
+- [Spring Cloud Alibaba基础教程：Sentinel Dashboard中修改规则同步到Nacos](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-4/)
+- [Spring Cloud Alibaba基础教程：@SentinelResource注解使用详解](http://blog.didispace.com/spring-cloud-alibaba-sentinel-2-5/)
+
+*国内使用最多的RPC框架整合：Dubbo*
+
+- [Spring Cloud Alibaba基础教程：与Dubbo的完美融合](http://blog.didispace.com/spring-cloud-alibaba-dubbo-1/)
 
 ##### Spring Cloud Stream专题补充
 
@@ -150,7 +185,11 @@
 
 ## 其他推荐
 
-- [Spring Boot基础教程](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
-- [Spring Boot 2.0新特性](http://blog.didispace.com/Spring-Boot-2-0-feature/)
-- [Spring Cloud基础教程](http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
+- [我的博客](http://blog.didispace.com)：分享平时学习和实践过的技术内容
+- [知识星球](https://t.xiaomiquan.com/zfEiY3v)：聊聊技术人的斜杠生活
+- [GitHub](https://github.com/dyc87112/SpringCloud-Learning)：Star支持一下呗
+- [Gitee](https://gitee.com/didispace/SpringCloud-Learning)：Star支持一下呗
+- [Spring问答社区](http://www.spring4all.com/)：如果您有什么问题，可以去这里发帖
+- [Spring Boot基础教程](http://blog.didispace.com/Spring-Boot%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)：全网Star最多的免费Spring Boot基础教程
+- [Spring Cloud基础教程](http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)：全网最早最全的免费Spring Cloud基础教程
 - [微服务架构专题](http://blog.didispace.com/micro-serivces-arch/)
