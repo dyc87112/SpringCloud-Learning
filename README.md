@@ -18,7 +18,7 @@
             </a>
           </td>
           <td align="center" valign="middle">
-            <a href="https://www.aliyun.com/minisite/goods?userCode=wxfqkr0o&share_source=copy_link" target="_blank">
+            <a href="https://www.aliyun.com/sale-season/2020/procurement-new-members?userCode=wxfqkr0o">
               <img width="300" src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9utcfi2hxj308c02i755.jpg">
             </a>
           </td>  
@@ -30,7 +30,7 @@
         </tr>
         <tr>
           <td align="center" valign="middle">
-            <a href="https://cloud.tencent.com/redirect.php?redirect=1027&cps_key=f6a8af1297bfac40b9d10ffa1270029a&from=console" target="_blank">
+            <a href="https://url.cn/5iF8JP2" target="_blank">
               <img width="300" src="http://img.didispace.com/FlcCuj0c-JhViRzr1wrynE941T9b">
             </a>
           </td> 

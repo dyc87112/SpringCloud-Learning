@@ -13,8 +13,8 @@
 
 **优惠云服务推荐**
 
-- [阿里云：ECS云服务器2折起](https://www.aliyun.com/minisite/goods?userCode=wxfqkr0o&share_source=copy_link)
-- [腾讯云：3年时长最低265元/年](https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=f6a8af1297bfac40b9d10ffa1270029a)
+- [阿里云：ECS云服务器2折起](https://www.aliyun.com/sale-season/2020/procurement-new-members?userCode=wxfqkr0o)
+- [腾讯云：3年时长最低265元/年](https://url.cn/5iF8JP2)
 
 ## 教程列表
 
